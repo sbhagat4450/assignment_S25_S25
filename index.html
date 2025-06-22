@@ -2,51 +2,135 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Explore Paris The City of Light</title>
+    <meta name="description" content="Learn about Paris, its culture, history, and landmarks.">
+    <meta name="keywords" content="Paris, France, Eiffel Tower, tourism, travel, famous cities">
+</head>
+
 </head>
 
 <body>
     <header>
-        <h1>My City Webpage</h1>
+        <h1>Paris</h1>
     </header>
     <main>
         <!---Blockquote-->
-        <section>
+        <section id="Overview">
+            <h2>City Overview</h2>
+            <blockquote cite="https://www.britannica.com/place/Paris">
+                <p>
+                    Paris, city and capital of France, situated in the north-central part of the
+                    country. People were living
+                    on the site of the present-day city, located along the Seine River some 233 miles (375 km)
+                    upstream from
+                    the river’s mouth on the English Channel (La Manche), by about 7600 <sup>bce</sup>. <br>
+                    The modern city has spread from the island (the Île de la Cité) and far beyond both banks of the
+                    Seine.<br>
+                </p>
 
         </section>
         <!---Images-->
-        <section>
+        <section id="Image">
+            <h2>Image</h2>
 
+            <img src="C:\Users\Owner\OneDrive - Conestoga College\Sec 2\Assignment-1-for-HTML\pexels-chris-molloy-220084-1308940.jpg"
+                height="400px" width="700px">
+            <figcaption>A Breathtaking view of the Paris and the Eiffel Tower</figcaption>
         </section>
         <!---Quote-->
-        <section>
+        <section id="Words about Paris">
+            <h2>Quote</h2>
+            <blockquote>
+                "Paris is not a city it's a world, "-- King Francis I
+            </blockquote>
 
         </section>
         <!--Video-->
-        <section>
+        <section id=" Watch :- About Paris">
+            <h2>Video</h2>
+            <section id="video">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5sDjOtS6QDE?si=ly-CX973ymWXErCq"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+
 
         </section>
 
     </main>
     <aside>
         <!--Links-->
-        <section>
+        <section id="Links">
+            <h2>Explore More about Paris</h2>
+            <ul>
+                <li><a href="https://en.parisinfo.com" target="_blank" title="Paris Official Tourism Site">Paris
+                        Tourism</a></li>
+                <li><a href="https://www.louvre.fr/en" target="_blank" title="Louvre Museum">The Louvre</a></li>
+                <li><a href="https://www.toureiffel.paris/en" target="_blank" title="Eiffel Tower Official Site">Eiffel
+                        Tower</a></li>
+            </ul>
+
 
         </section>
         <!--Table-->
-        <section>
+        <section id="Facts" style="margin-top:30px;">
+            <h2>Intresting Fact about Paris</h2>
+            <table border="0">
+                <tr>
+                    <th>Fact</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td>Population</td>
+                    <td>Approximately 2.1 Millon (Metro Area)</td>
+                </tr>
+                <tr>
+                    <td>Time Zone</td>
+                    <td>Central European Time (CET,UTC+1)</td>
+                </tr>
+                <tr>
+                    <td>Founded</td>
+                    <td>~250 BC</td>
+                </tr>
+            </table>
+
 
         </section>
 
         <!--Form-->
-        <section>
+        <section id="Form">
+            <h2>Contact US</h2>
+            <form style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <label class="form-label" for="name">Your Name:</label>
+                <input class="form-control" type="text" id="name" name="name" placeholder="Enter your full name"
+                    required autofocus>
+
+                <label class="form-label" for="email">Email Address:</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Enter a valid email">
+
+                <label class="form-label" for="reason">Reason for Contact:</label>
+                <select class="form-control" id="reason" name="reason">
+                    <option value="">Select an option</option>
+                    <option value="travel">Travel Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label class="form-label" for="message">Your Message:</label>
+                <textarea class="form-control" id="message" name="message"
+                    placeholder="Write your message here"></textarea>
+
+                <input type="submit" value="Submit">
+
 
         </section>
     </aside>
-    <footer>
 
+    <footer>
+        <p>@Sagar Bhagat</p>
     </footer>
 </body>
 
